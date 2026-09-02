@@ -1,7 +1,7 @@
 # Voyage au coeur de la cellule végétale 
 
 
-![SC_Bagette_Vectorisé](.images/README/SC_Bagette_Vectorisé.png)
+![SC_Bagette_Vectorisé](.images/README/SC_Bagette_Vector.png)
 
 
 Voyage au Cœur de la Cellule Végétale est un **set de vulgarisation** destiné à amener le grand public à voyager depuis l’objet connu, la feuille, jusqu’au cœur de la photosynthèse, processus essentiel au vivant et à l’équilibre du climat mais souvent méconnu, voire ignoré du public. 
