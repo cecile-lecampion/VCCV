@@ -101,12 +101,22 @@ arrêter.
 
 ## 5. Modifier le contenu
 
-> 📷 **À propos des images** : le site n'utilise que les images placées dans
-> `docs/images/`. Ce sont des copies allégées (quelques centaines de Ko) des
-> originaux rangés dans `Gallerie/`, `Carte/`, `Super_Chloroplaste/`, etc.,
-> pour que les pages se chargent vite. Pour ajouter une photo au site,
-> réduisez-la d'abord (1200 pixels de large suffisent, par exemple avec
-> Aperçu : Outils → Ajuster la taille) puis déposez-la dans `docs/images/`.
+> 📷 **À propos des images** : le site n'affiche que les images placées dans
+> `docs/images/`. Ce sont des copies allégées des originaux, pour que les
+> pages se chargent vite.
+>
+> - **Cartes, Super Chloro, monstres, logos** : les copies sont refaites
+>   **automatiquement** à chaque publication à partir des originaux
+>   (`Carte/`, `Super_Chloroplaste/`, `Autres_acteurs/`). Remplacez
+>   simplement l'original en gardant le même nom de fichier. La liste des
+>   images concernées est dans `outils/images_site.py` : si vous renommez
+>   un original, mettez à jour sa ligne dans ce fichier. Pour voir les
+>   nouvelles images dans l'aperçu sur votre Mac, lancez d'abord
+>   `python3 outils/images_site.py`.
+> - **Photos de la galerie** : choisies à la main (droit à l'image).
+>   Réduisez la photo (1200 pixels de large suffisent, par exemple avec
+>   Aperçu : Outils → Ajuster la taille), déposez-la dans
+>   `docs/images/galerie/` et ajoutez une ligne dans `docs/galerie.md`.
 
 Chaque page est un fichier `.md` dans `docs/`. Vous pouvez les modifier
 directement sur GitHub (icône crayon ✏️) ou sur votre Mac.
