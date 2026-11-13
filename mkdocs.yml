@@ -1,0 +1,117 @@
+# =============================================================================
+# Configuration du site de l'atelier VCCV
+# -----------------------------------------------------------------------------
+# Ce fichier décrit le site : son titre, son apparence et son menu.
+# Il est lu par MkDocs (avec le thème Material) pour fabriquer le site web.
+# Les lignes qui commencent par # sont des commentaires : elles sont ignorées.
+# =============================================================================
+
+site_name: Atelier VCCV – La photosynthèse en 3D
+site_description: >-
+  Un atelier de médiation scientifique autour d'un modèle 3D imprimable
+  de la chaîne photosynthétique, pour tous les publics.
+site_author: Cécile Lecampion et collaborateurs
+
+# Adresse finale du site (GitHub Pages)
+site_url: https://cecile-lecampion.github.io/VCCV/
+
+# Lien vers le dépôt GitHub (affiché discrètement en haut à droite)
+repo_url: https://github.com/cecile-lecampion/VCCV
+repo_name: VCCV sur GitHub
+edit_uri: edit/main/docs/
+
+# -----------------------------------------------------------------------------
+# Apparence
+# -----------------------------------------------------------------------------
+theme:
+  name: material
+  language: fr
+  # Logo et icône d'onglet : déposez vos images dans docs/images/
+  # puis enlevez le # au début des deux lignes ci-dessous.
+  # logo: images/logo.png
+  # favicon: images/favicon.png
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    # Mode clair
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/weather-night
+        name: Passer en mode sombre
+    # Mode sombre
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/weather-sunny
+        name: Passer en mode clair
+  features:
+    - navigation.tabs          # menu principal en onglets en haut de page
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top           # bouton « retour en haut »
+    - navigation.footer        # liens « page précédente / suivante »
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+
+extra_css:
+  - stylesheets/extra.css
+
+# -----------------------------------------------------------------------------
+# Menu du site
+# L'ordre ici = l'ordre dans le menu. Le texte avant « : » est le nom affiché,
+# le texte après est le fichier correspondant dans le dossier docs/.
+# -----------------------------------------------------------------------------
+nav:
+  - Accueil: index.md
+  - Imprimer le modèle: imprimer.md
+  - Animer l'atelier:
+      - animer/index.md
+      - Pour les plus jeunes: animer/jeunes-publics.md
+      - Pour aller plus loin: animer/approfondi.md
+  - Les cartes: cartes.md
+  - Fascicule animateur: fascicule.md
+  - Adapter et contribuer: adapter.md
+  - Crédits et licence: credits.md
+
+# -----------------------------------------------------------------------------
+# Extensions : encadrés colorés, onglets, icônes, images, etc.
+# -----------------------------------------------------------------------------
+markdown_extensions:
+  - admonition            # encadrés  !!! note "Titre"
+  - pymdownx.details      # encadrés repliables  ??? info "Titre"
+  - pymdownx.superfences
+  - pymdownx.tabbed:      # onglets  === "Onglet 1"
+      alternate_style: true
+  - attr_list             # boutons, tailles d'images
+  - md_in_html            # légendes d'images, grilles de cartes
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.caret        # H~2~O et indices/exposants
+  - pymdownx.tilde
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search:
+      lang: fr
+
+extra:
+  # Supprime la mention « Made with Material for MkDocs » en bas de page
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/cecile-lecampion/VCCV
+      name: Le dépôt GitHub
+
+copyright: >-
+  Atelier VCCV – contenus sous licence libre,
+  voir la page <a href="credits/">Crédits et licence</a>.

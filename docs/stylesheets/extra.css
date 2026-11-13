@@ -1,0 +1,21 @@
+/* Petites retouches d'apparence du site VCCV.
+   Ce fichier est facultatif : vous pouvez le laisser tel quel. */
+
+/* Boutons un peu plus arrondis et aérés */
+.md-typeset .md-button {
+  border-radius: 2rem;
+  margin: 0.3rem 0.3rem 0.3rem 0;
+}
+
+/* Images arrondies avec une légère ombre */
+.md-typeset img {
+  border-radius: 0.6rem;
+}
+
+/* Cartes de la page d'accueil : effet au survol */
+.md-typeset .grid.cards > ul > li {
+  transition: transform 0.15s ease;
+}
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-3px);
+}
