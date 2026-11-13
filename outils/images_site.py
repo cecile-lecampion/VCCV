@@ -12,8 +12,9 @@ Fonctionnement : pour chaque ligne du tableau IMAGES ci-dessous, l'original
 Si vous renommez ou déplacez un original, mettez à jour sa ligne ici.
 Si un original est introuvable, le script le signale et garde l'ancienne copie.
 
-Les photos de la galerie ne sont PAS traitées ici : elles sont choisies
-à la main (droit à l'image), voir docs/galerie.md.
+Les photos de la galerie ne sont pas listées ici : elles sont choisies
+à la main (droit à l'image), voir docs/galerie.md. Comme toute image déposée
+dans docs/images/, elles sont simplement réduites si elles sont trop grandes.
 """
 
 from pathlib import Path
@@ -41,13 +42,13 @@ IMAGES = {
     "Autres_acteurs/monstres/carence.png": ("monstres/carence.png", 360),
     "Autres_acteurs/monstres/obscurite.png": ("monstres/obscurite.png", 360),
     # --- Cartes : dos des trois paquets -------------------------------------
-    "Carte/cartes_vierges/carte_A5_Stress_recto.png": ("cartes/dos-stress.jpg", 520),
-    "Carte/cartes_vierges/carte_A5_Consequence_recto.png": ("cartes/dos-consequence.jpg", 520),
-    "Carte/cartes_vierges/carte_A5_Reponse cellule_recto.png": ("cartes/dos-reponse.jpg", 520),
+    "Carte/cartes_vierges/Cartes_stress_1.png": ("cartes/dos-stress.jpg", 520),
+    "Carte/cartes_vierges/cartes consequences_recto.png": ("cartes/dos-consequence.jpg", 520),
+    "Carte/cartes_vierges/Carte_reponses_1.png": ("cartes/dos-reponse.jpg", 520),
     # --- Cartes : exemples affichés sur la page « Les cartes » --------------
-    "Carte/cartes_stress/forte_lumiere.png": ("cartes/stress-forte-lumiere.jpg", 520),
-    "Carte/cartes_consequences/ox.png": ("cartes/consequence-oxydation.jpg", 520),
-    "Carte/cartes_reponses/dissipation chaleur.png": ("cartes/reponse-dissipation.jpg", 520),
+    "Carte/cartes_stress/Cartes_stress_2.png": ("cartes/stress-forte-lumiere.jpg", 520),
+    "Carte/cartes_consequences/cartes consequences_ros.png": ("cartes/consequence-oxydation.jpg", 520),
+    "Carte/cartes_reponses/Carte_reponses_2.png": ("cartes/reponse-dissipation.jpg", 520),
 }
 
 
@@ -61,6 +62,24 @@ def alleger(original: Path, copie: Path, taille_max: int) -> None:
         image.save(copie, optimize=True)
 
 
+# Toute autre image déposée dans docs/images/ (photos, logos…) est réduite
+# automatiquement si elle dépasse cette taille, en gardant son nom.
+TAILLE_MAX_AUTRES = 1600
+
+
+def alleger_le_reste() -> int:
+    nombre = 0
+    for fichier in SORTIE.rglob("*"):
+        if fichier.suffix.lower() not in (".jpg", ".jpeg", ".png"):
+            continue
+        with Image.open(fichier) as image:
+            trop_grande = max(image.size) > TAILLE_MAX_AUTRES
+        if trop_grande:
+            alleger(fichier, fichier, TAILLE_MAX_AUTRES)
+            nombre += 1
+    return nombre
+
+
 def main() -> None:
     manquants = 0
     for chemin_original, (chemin_copie, taille_max) in IMAGES.items():
@@ -71,6 +90,7 @@ def main() -> None:
             continue
         alleger(original, SORTIE / chemin_copie, taille_max)
     print(f"{len(IMAGES) - manquants} image(s) mise(s) à jour, {manquants} introuvable(s).")
+    print(f"{alleger_le_reste()} autre(s) image(s) trop grande(s) réduite(s).")
 
 
 if __name__ == "__main__":

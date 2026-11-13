@@ -8,17 +8,17 @@ mal**.
 
 <div class="cartes-dos" markdown>
 <figure markdown>
-![](images/cartes/Cartes_stress_1.png)
+![](images/cartes/dos-stress.jpg)
 <figcaption><strong>Les stress</strong> environnementaux</figcaption>
 </figure>
 
 <figure markdown>
-![](images/cartes/cartes consequences_recto.png)
+![](images/cartes/dos-consequence.jpg)
 <figcaption><strong>Les conséquences</strong> pour la plante</figcaption>
 </figure>
 
 <figure markdown>
-![](images/cartes/Carte_reponses_1.png)
+![](images/cartes/dos-reponse.jpg)
 <figcaption><strong>Les réponses</strong> de la cellule</figcaption>
 </figure>
 
@@ -89,9 +89,9 @@ entrer dans le détail de la chaîne photosynthétique.
 ## Quelques exemples de cartes
 
 <div class="cartes-exemples" markdown>
-![Carte stress : forte lumière](images/cartes/Cartes_stress_2.png)
-![Carte conséquence : accumulation des espèces oxydantes](images/cartes/cartes consequences_ros.png)
-![Carte réponse : dissipation de l'énergie en excès](images/cartes/Carte_reponses_2.png)
+![Carte stress : forte lumière](images/cartes/stress-forte-lumiere.jpg)
+![Carte conséquence : accumulation des espèces oxydantes](images/cartes/consequence-oxydation.jpg)
+![Carte réponse : dissipation de l'énergie en excès](images/cartes/reponse-dissipation.jpg)
 </div>
 
 ??? example "Exemple : la forte lumière"

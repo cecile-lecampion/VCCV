@@ -156,6 +156,24 @@ par `???`.
 **Ajouter une page au menu** : créez le fichier `.md` dans `docs/`, puis
 ajoutez une ligne dans la partie `nav:` de `mkdocs.yml`.
 
+### Si vous écrivez avec Typora
+
+Typora insère par défaut les images avec leur chemin complet sur votre Mac
+(`/Users/cecile/...`), qui n'existe pas sur le site. Réglez-le une fois pour
+toutes : **Typora → Réglages → Image**, choisissez « Copier l'image dans un
+dossier personnalisé » avec `./images` si besoin, et **cochez « Utiliser le
+chemin relatif si possible »**. Évitez aussi les espaces et les majuscules
+d'extension (`.JPG`) dans les noms d'images : `photo-stand.jpg` plutôt que
+`Photo stand.JPG`.
+
+### Vérifier avant d'envoyer
+
+Le site n'est publié que s'il ne contient **aucune erreur** (par exemple une
+image introuvable) : sinon, l'ancienne version reste en ligne et GitHub vous
+envoie un e-mail « Run failed ». Pour vérifier avant d'envoyer, lancez
+`mkdocs serve` (voir section 4) : les erreurs s'affichent dans le Terminal
+en jaune, sur les lignes qui commencent par `WARNING`.
+
 ## 6. Proposer les fichiers en téléchargement (Releases)
 
 Plutôt que d'envoyer les visiteurs fouiller dans les dossiers GitHub :

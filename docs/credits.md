@@ -3,7 +3,9 @@
 *Voyage au cœur de la cellule végétale* est né de l'envie de partager notre
 objet d'étude préféré, et ses merveilles, avec le plus grand public possible.
 Il a été développé au sein de l'équipe **Luminy Génétique et Biophysique des
-Plantes** (BIAM/LGBP), à Marseille.<img src="/Users/cecile/Documents/github-repositories/VCCV/docs/images/LGBP.png" alt="LGBP" style="zoom:24%;" />
+Plantes** (BIAM/LGBP), à Marseille.
+
+![Luminy Génétique et Biophysique des Plantes](images/logos/LGBP.png){ width="220" }
 
 ## L'équipe
 
@@ -26,9 +28,10 @@ Plantes** (BIAM/LGBP), à Marseille.<img src="/Users/cecile/Documents/github-rep
 
 ## Les illustrations
 
-Les illustrations ont été faite par Vik Lygaïsun
+Super Chloro, les monstres et toutes les illustrations des cartes ont été
+réalisés par **Vik Lygaïsun**.
 
-https://www.instagram.com/p/DdHcsbZkYL1/?utm_source=ig_web_copy_link&ig_mid=E5E2C1D3-0926-4927-92AB-A07CFF75DFCC&igsh=MzRlODBiNWFlZA%3D%3D
+[:material-instagram: Découvrir son travail](https://www.instagram.com/p/DdHcsbZkYL1/){ .md-button }
 
 ## Remerciements
 
@@ -44,11 +47,11 @@ https://www.instagram.com/p/DdHcsbZkYL1/?utm_source=ig_web_copy_link&ig_mid=E5E2
 
 *Voyage au cœur de la cellule végétale* est financé par une bourse aux projets
 de la **Cellule de Culture Scientifique d'Aix-Marseille Université**.
-Nous sommes partenaires de la **Société Française de Photosynthèse** et du **CISAM+**
+Nous sommes partenaires de la **Société Française de Photosynthèse** et du **CISAM+**.
 
-![bandeau institution](/Users/cecile/Documents/github-repositories/VCCV/docs/images/bandeau institution.png)
+![Institutions : Cité des énergies, BIAM, CEA, CNRS, Aix-Marseille Université](images/logos/bandeau-institutions.png)
 
-<img src="/Users/cecile/Documents/github-repositories/VCCV/docs/images/bandeau partenaire.png" alt="bandeau partenaire" style="zoom:24%;" />
+![Partenaires : SFPhi, Bourse aux projets de culture scientifique, CISAM+](images/logos/bandeau-partenaires.png){ width="420" }
 
 ## Nous contacter
 

@@ -23,85 +23,60 @@ de la plante entière jusqu'à la chaîne photosynthétique.
 
     [:octicons-file-directory-24: Fichiers 3D](https://github.com/cecile-lecampion/VCCV/tree/main/Modele_3D/Boite_feuille)
 
-- :material-hexagon-multiple-outline:{ .lg .middle } **La cellule végétale**
-
-  ---
-
-  <figure markdown>
-  ![](images/materiel/cellule2.png)
-  <figcaption><strong>La cellule</strong> en détail</figcaption>
-  </figure>
-
-  <figure markdown>
-  ![](images/materiel/cellule.png)
-  <figcaption><strong>La cellule</strong> au microscope</figcaption>
-  </figure>
-
-  Deux versions : une cellule détaillée, dont chaque compartiment (noyau,
-  vacuole, mitochondries, chloroplaste) se manipule séparément, et une
-  cellule « comme au microscope », idéale pour les plus petits.
-
-  [:octicons-file-directory-24: Fichiers 3D](https://github.com/cecile-lecampion/VCCV/tree/main/Modele_3D/Plant_cell)
-
-- :material-sun-thermometer:{ .lg .middle } **La photosynthèse pour les plus petits**
-
-  ---
-
-  
-
-  <figure markdown>
-  ![](images/materiel/petits.png)
-  <figcaption><strong>La photosynthèse</strong> simplifiée</figcaption>
-  </figure>
-
-  Une grande feuille à laquelle on apporte l'eau, le CO~2~ et la lumière
-  du soleil, et qui produit le sucre et l'oxygène.
-
-  [:octicons-file-directory-24: Fichiers 3D](https://github.com/cecile-lecampion/VCCV/tree/main/Modele_3D/Photosynth%C3%A8se_petits)
-
-- :material-capsule:{ .lg .middle } **Le chloroplaste**
-
-  ---
-
-  
-
-  <figure markdown>
-  ![](images/materiel/chloroplaste.png)
-  <figcaption><strong>Le chloroplaste</strong> </figcaption>
-  </figure>
-
-  Un fond, un couvercle… et les thylakoïdes empilés à l'intérieur.
-
-  [:octicons-file-directory-24: Fichiers 3D](https://github.com/cecile-lecampion/VCCV/tree/main/Modele_3D/Chloroplaste)
-
-- :material-transit-connection-variant:{ .lg .middle } **La chaîne photosynthétique**
-
-  ---
-
-  
-
-  <figure markdown>
-  ![](images/materiel/chaine.png)
-  <figcaption><strong>La chaine photosynthétique</strong> </figcaption>
-  </figure>
-
-  Les complexes alignés sur leur membrane, et une goulotte pour faire
-  circuler les électrons.
-
-  *Bientôt disponible.*
-
--   :material-sync:{ .lg .middle } **Le cycle de Calvin**
+-   :material-hexagon-multiple-outline:{ .lg .middle } **La cellule végétale**
 
     ---
 
-    <figure markdown>
-    ![](images/materiel/cycle.png)
-    <figcaption><strong>Le cycle de Calvin, Benson, Bassham</strong> </figcaption>
-    </figure>
-    
+    ![La cellule en détail](images/materiel/cellule2.png){ .illustration-demi }
+    ![La cellule comme au microscope](images/materiel/cellule.png){ .illustration-demi }
+
+    Deux versions : une cellule détaillée, dont chaque compartiment (noyau,
+    vacuole, mitochondries, chloroplaste) se manipule séparément, et une
+    cellule « comme au microscope », idéale pour les plus petits.
+
+    [:octicons-file-directory-24: Fichiers 3D](https://github.com/cecile-lecampion/VCCV/tree/main/Modele_3D/Plant_cell)
+
+-   :material-sun-thermometer:{ .lg .middle } **La photosynthèse pour les plus petits**
+
+    ---
+
+    ![La photosynthèse simplifiée](images/materiel/petits.png){ .illustration }
+
+    Une grande feuille à laquelle on apporte l'eau, le CO~2~ et la lumière
+    du soleil, et qui produit le sucre et l'oxygène.
+
+    [:octicons-file-directory-24: Fichiers 3D](https://github.com/cecile-lecampion/VCCV/tree/main/Modele_3D/Photosynth%C3%A8se_petits)
+
+-   :material-pill:{ .lg .middle } **Le chloroplaste**
+
+    ---
+
+    ![Le chloroplaste](images/materiel/chloroplaste.png){ .illustration }
+
+    Un fond, un couvercle… et les thylakoïdes empilés à l'intérieur.
+
+    [:octicons-file-directory-24: Fichiers 3D](https://github.com/cecile-lecampion/VCCV/tree/main/Modele_3D/Chloroplaste)
+
+-   :material-transit-connection-variant:{ .lg .middle } **La chaîne photosynthétique**
+
+    ---
+
+    ![La chaîne photosynthétique](images/materiel/chaine.png){ .illustration }
+
+    Les complexes alignés sur leur membrane, et une goulotte pour faire
+    circuler les électrons.
+
+    *Bientôt disponible.*
+
+-   :material-sync:{ .lg .middle } **Le cycle de Calvin-Benson-Bassham**
+
+    ---
+
+    ![La boîte du cycle de Calvin-Benson-Bassham](images/materiel/cycle.png){ .illustration }
+
     Une boîte à double tiroir : l'un reçoit les billes (les électrons) qui
     arrivent de la chaîne, l'autre les bonbons (le sucre) qui en sortent !
-    
+
     [:octicons-file-directory-24: Fichiers 3D](https://github.com/cecile-lecampion/VCCV/tree/main/Modele_3D/cycle%20Calvin)
 
 </div>

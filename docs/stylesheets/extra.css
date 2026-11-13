@@ -132,3 +132,19 @@
     max-width: 14rem;
   }
 }
+
+/* Illustrations dans les fiches de la page « Le matériel » */
+.md-typeset .grid.cards img.illustration {
+  display: block;
+  width: 100%;
+  max-height: 11rem;
+  object-fit: contain;
+  margin: 0 auto;
+}
+.md-typeset .grid.cards img.illustration-demi {
+  display: inline-block;
+  width: 48%;
+  max-height: 11rem;
+  object-fit: contain;
+  vertical-align: bottom;
+}

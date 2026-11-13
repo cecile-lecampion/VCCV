@@ -30,7 +30,7 @@ Quelques images de l'atelier en action. Vous utilisez le modèle ?
 <div class="galerie" markdown>
 ![](images/galerie/nuit-01.jpg)
 ![](images/galerie/nuit-02.jpg)
-![](images/galerie/nuit-03.jpg)  
+![](images/galerie/nuit-03.jpg)
 ![](images/galerie/nuit-04.jpg)
 ![](images/galerie/nuit-05.jpg)
 </div>
