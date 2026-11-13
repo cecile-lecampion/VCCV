@@ -27,9 +27,15 @@ de la plante entière jusqu'à la chaîne photosynthétique.
 
   ---
 
-  ![cellule détaillée](images/cellule2.png){ width="500" }
+  <figure markdown>
+  ![](images/materiel/cellule2.png)
+  <figcaption><strong>La cellule</strong> en détail</figcaption>
+  </figure>
 
-  ![cellule microscope](images/cellule.png){ width="500" }
+  <figure markdown>
+  ![](images/materiel/cellule.png)
+  <figcaption><strong>La cellule</strong> au microscope</figcaption>
+  </figure>
 
   Deux versions : une cellule détaillée, dont chaque compartiment (noyau,
   vacuole, mitochondries, chloroplaste) se manipule séparément, et une
@@ -41,7 +47,12 @@ de la plante entière jusqu'à la chaîne photosynthétique.
 
   ---
 
-  ![Photosynthèse petits](images/petits.png){ width="500" }
+  
+
+  <figure markdown>
+  ![](images/materiel/petits.png)
+  <figcaption><strong>La photosynthèse</strong> simplifiée</figcaption>
+  </figure>
 
   Une grande feuille à laquelle on apporte l'eau, le CO~2~ et la lumière
   du soleil, et qui produit le sucre et l'oxygène.
@@ -52,7 +63,12 @@ de la plante entière jusqu'à la chaîne photosynthétique.
 
   ---
 
-  ![Chloroplaste](images/chloroplaste.png){ width="500" }
+  
+
+  <figure markdown>
+  ![](images/materiel/chloroplaste.png)
+  <figcaption><strong>Le chloroplaste</strong> </figcaption>
+  </figure>
 
   Un fond, un couvercle… et les thylakoïdes empilés à l'intérieur.
 
@@ -62,7 +78,12 @@ de la plante entière jusqu'à la chaîne photosynthétique.
 
   ---
 
-  ![Chaine photosynthétique](images/chaine.png){ width="500" }
+  
+
+  <figure markdown>
+  ![](images/materiel/chaine.png)
+  <figcaption><strong>La chaine photosynthétique</strong> </figcaption>
+  </figure>
 
   Les complexes alignés sur leur membrane, et une goulotte pour faire
   circuler les électrons.
@@ -73,7 +94,10 @@ de la plante entière jusqu'à la chaîne photosynthétique.
 
     ---
 
-    ![cycle de calvin](images/cycle.png){ width="500" }
+    <figure markdown>
+    ![](images/materiel/cycle.png)
+    <figcaption><strong>Le cycle de Calvin, Benson, Bassham</strong> </figcaption>
+    </figure>
     
     Une boîte à double tiroir : l'un reçoit les billes (les électrons) qui
     arrivent de la chaîne, l'autre les bonbons (le sucre) qui en sortent !
