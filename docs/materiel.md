@@ -23,49 +23,61 @@ de la plante entière jusqu'à la chaîne photosynthétique.
 
     [:octicons-file-directory-24: Fichiers 3D](https://github.com/cecile-lecampion/VCCV/tree/main/Modele_3D/Boite_feuille)
 
--   :material-hexagon-multiple-outline:{ .lg .middle } **La cellule végétale**
+- :material-hexagon-multiple-outline:{ .lg .middle } **La cellule végétale**
 
-    ---
+  ---
 
-    Deux versions : une cellule détaillée, dont chaque compartiment (noyau,
-    vacuole, mitochondries, chloroplaste) se manipule séparément, et une
-    cellule « comme au microscope », idéale pour les plus petits.
+  ![cellule détaillée](images/cellule2.png){ width="500" }
 
-    [:octicons-file-directory-24: Fichiers 3D](https://github.com/cecile-lecampion/VCCV/tree/main/Modele_3D/Plant_cell)
+  ![cellule microscope](images/cellule.png){ width="500" }
 
--   :material-sun-thermometer:{ .lg .middle } **La photosynthèse pour les plus petits**
+  Deux versions : une cellule détaillée, dont chaque compartiment (noyau,
+  vacuole, mitochondries, chloroplaste) se manipule séparément, et une
+  cellule « comme au microscope », idéale pour les plus petits.
 
-    ---
+  [:octicons-file-directory-24: Fichiers 3D](https://github.com/cecile-lecampion/VCCV/tree/main/Modele_3D/Plant_cell)
 
-    Une grande feuille à laquelle on apporte l'eau, le CO~2~ et la lumière
-    du soleil, et qui produit le sucre et l'oxygène.
+- :material-sun-thermometer:{ .lg .middle } **La photosynthèse pour les plus petits**
 
-    [:octicons-file-directory-24: Fichiers 3D](https://github.com/cecile-lecampion/VCCV/tree/main/Modele_3D/Photosynth%C3%A8se_petits)
+  ---
 
--   :material-capsule:{ .lg .middle } **Le chloroplaste**
+  ![Photosynthèse petits](images/petits.png){ width="500" }
 
-    ---
+  Une grande feuille à laquelle on apporte l'eau, le CO~2~ et la lumière
+  du soleil, et qui produit le sucre et l'oxygène.
 
-    Un fond, un couvercle… et les thylakoïdes empilés à l'intérieur.
+  [:octicons-file-directory-24: Fichiers 3D](https://github.com/cecile-lecampion/VCCV/tree/main/Modele_3D/Photosynth%C3%A8se_petits)
 
-    [:octicons-file-directory-24: Fichiers 3D](https://github.com/cecile-lecampion/VCCV/tree/main/Modele_3D/Chloroplaste)
+- :material-capsule:{ .lg .middle } **Le chloroplaste**
 
--   :material-transit-connection-variant:{ .lg .middle } **La chaîne photosynthétique**
+  ---
 
-    ---
+  ![Chloroplaste](images/chloroplaste.png){ width="500" }
 
-    Les complexes alignés sur leur membrane, et une goulotte pour faire
-    circuler les électrons.
+  Un fond, un couvercle… et les thylakoïdes empilés à l'intérieur.
 
-    *Bientôt disponible.*
+  [:octicons-file-directory-24: Fichiers 3D](https://github.com/cecile-lecampion/VCCV/tree/main/Modele_3D/Chloroplaste)
+
+- :material-transit-connection-variant:{ .lg .middle } **La chaîne photosynthétique**
+
+  ---
+
+  ![Chaine photosynthétique](images/chaine.png){ width="500" }
+
+  Les complexes alignés sur leur membrane, et une goulotte pour faire
+  circuler les électrons.
+
+  *Bientôt disponible.*
 
 -   :material-sync:{ .lg .middle } **Le cycle de Calvin**
 
     ---
 
+    ![cycle de calvin](images/cycle.png){ width="500" }
+    
     Une boîte à double tiroir : l'un reçoit les billes (les électrons) qui
     arrivent de la chaîne, l'autre les bonbons (le sucre) qui en sortent !
-
+    
     [:octicons-file-directory-24: Fichiers 3D](https://github.com/cecile-lecampion/VCCV/tree/main/Modele_3D/cycle%20Calvin)
 
 </div>
