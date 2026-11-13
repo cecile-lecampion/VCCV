@@ -45,10 +45,10 @@ Le but est une discussion la plus interactive possible.
     public adulte équipé de smartphones, un quiz participatif fonctionne
     très bien.
 
-Les cartes existent en **plusieurs niveaux de complexité**, signalés par les
-mêmes logos que dans le reste de l'atelier. Choisissez-les à l'avance pour une
-classe ; pour un stand grand public, gardez les différentes versions sous la
-main.
+Les cartes sont les mêmes pour tous : c'est **la discussion qui s'adapte au
+public**. Avec les plus jeunes, on reste sur des idées simples (« la plante a
+trop chaud, elle ferme ses petites bouches ») ; avec les plus grands, on peut
+entrer dans le détail de la chaîne photosynthétique.
 
 ## Les stress… et leurs monstres
 

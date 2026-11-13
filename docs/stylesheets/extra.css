@@ -31,11 +31,11 @@
   flex-wrap: wrap;
 }
 .md-typeset .hero-texte {
-  flex: 1 1 22rem;
+  flex: 1 1 20rem;
 }
 .md-typeset .hero-image {
-  flex: 0 1 18rem;
-  max-width: 18rem;
+  flex: 0 1 26rem;
+  max-width: 26rem;
   width: 100%;
   margin: 0 auto;
 }
@@ -129,6 +129,6 @@
 /* Sur téléphone : mascotte plus petite */
 @media screen and (max-width: 44.9375em) {
   .md-typeset .hero-image {
-    max-width: 11rem;
+    max-width: 14rem;
   }
 }

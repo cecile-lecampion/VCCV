@@ -38,7 +38,7 @@ place, n'hésitez pas à retirer des éléments ou à ne présenter qu'une parti
 
 ## Adapter le contenu à son public
 
-Dans ce site, dans le guide de l'animateur et sur les cartes, trois logos
+Dans ce site et dans le guide de l'animateur, trois logos
 indiquent le contenu que nous recommandons selon le public :
 
 | | Public | Exemples |
