@@ -16,16 +16,17 @@ requirements-docs.txt       ← outils nécessaires (lu automatiquement par GitH
 .github/workflows/site.yml  ← publication automatique
 docs/                       ← le contenu du site, une page = un fichier .md
     index.md                    Accueil
-    imprimer.md                 Imprimer le modèle
-    animer/index.md             Animer l'atelier (présentation)
-    animer/jeunes-publics.md    Niveau jeunes publics
-    animer/approfondi.md        Niveau approfondi
-    cartes.md                   Les cartes
-    fascicule.md                Fascicule animateur
+    materiel.md                 Le matériel (modèles 3D)
+    animer/index.md             Animer l'atelier (présentation des 3 phases)
+    animer/cellule.md           Phase 1 : la cellule végétale
+    animer/chloroplaste.md      Phase 2 : plongée dans le chloroplaste
+    cartes.md                   Les cartes (phase 3)
+    fascicule.md                Le guide de l'animateur
+    galerie.md                  Galerie photos
     adapter.md                  Adapter et contribuer
-    credits.md                  Crédits et licence
-    images/                     vos photos
-    stylesheets/extra.css       petites retouches d'apparence
+    credits.md                  Qui sommes-nous ?
+    images/                     images du site (versions allégées)
+    stylesheets/extra.css       retouches d'apparence
 ```
 
 Copiez **tout** à la racine de votre dépôt local VCCV, à côté de vos dossiers
@@ -100,6 +101,13 @@ arrêter.
 
 ## 5. Modifier le contenu
 
+> 📷 **À propos des images** : le site n'utilise que les images placées dans
+> `docs/images/`. Ce sont des copies allégées (quelques centaines de Ko) des
+> originaux rangés dans `Gallerie/`, `Carte/`, `Super_Chloroplaste/`, etc.,
+> pour que les pages se chargent vite. Pour ajouter une photo au site,
+> réduisez-la d'abord (1200 pixels de large suffisent, par exemple avec
+> Aperçu : Outils → Ajuster la taille) puis déposez-la dans `docs/images/`.
+
 Chaque page est un fichier `.md` dans `docs/`. Vous pouvez les modifier
 directement sur GitHub (icône crayon ✏️) ou sur votre Mac.
 
@@ -163,8 +171,23 @@ le lien fonctionne toujours.
 
 ## 7. Pour aller plus loin
 
-- **Zenodo** : en connectant le dépôt à zenodo.org, chaque Release est
-  archivée et reçoit un DOI, ce qui rend l'atelier citable.
+- **HAL et Software Heritage** pour rendre l'atelier citable et l'archiver
+  durablement :
+    1. **Le fascicule et les cartes (PDF)** se déposent dans HAL comme
+       n'importe quel document, avec le type « Cours » (ou le type que
+       conseille votre service de documentation). HAL leur attribue un
+       identifiant pérenne `hal-XXXXXXXX`.
+    2. **Le dépôt GitHub entier** (STL, sources, site) peut être archivé
+       par Software Heritage : sur softwareheritage.org, rubrique
+       « Save code now », collez l'adresse du dépôt GitHub. Vous obtenez
+       un identifiant SWHID.
+    3. **Optionnel** : déposer ce SWHID dans HAL avec le type « Logiciel »,
+       pour que le dépôt apparaisse aussi dans HAL. Ce type est prévu pour
+       du code ; demandez à votre correspondant HAL s'il convient à du
+       matériel pédagogique.
+    4. Reportez les identifiants dans la page `docs/credits.md`.
+- **Zenodo** reste possible en complément si vous voulez un DOI attribué
+  automatiquement à chaque Release.
 - **Documentation complète du thème** :
   https://squidfunk.github.io/mkdocs-material/
 

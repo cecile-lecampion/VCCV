@@ -4,91 +4,113 @@ hide:
   - toc
 ---
 
-# La photosynthèse en 3D
+# Voyage au cœur de la cellule végétale
 
-<!-- Remplacez cette image par une belle photo du modèle imprimé.
-     Déposez la photo dans docs/images/ sous le nom modele.jpg -->
-<!-- ![Le modèle 3D de la chaîne photosynthétique](images/modele.jpg){ width="700" } -->
+<div class="hero" markdown>
 
-**VCCV** est un atelier de médiation scientifique construit autour d'un
-**modèle 3D imprimable de la chaîne photosynthétique**. Il permet de parler
-de photosynthèse **à tous les publics** : des plus jeunes, avec des mots
-simples, jusqu'aux curieux qui veulent comprendre le fonctionnement détaillé
-de la chaîne.
+<div class="hero-texte" markdown>
 
-Tout est **libre et gratuit** : fichiers d'impression, cartes, modèles vierges
-et fascicule pour les animateurs. Enseignants, professeurs des écoles,
-animateurs scientifiques : servez-vous, adaptez, partagez !
+Un **set de vulgarisation** pour voyager depuis un objet que tout le monde
+connaît, **la feuille**, jusqu'au cœur de **la photosynthèse** : le processus
+qui produit l'oxygène que nous respirons et les sucres dont tout le vivant
+a besoin.
 
-[:material-printer-3d: Imprimer le modèle](imprimer.md){ .md-button .md-button--primary }
+Des **modèles imprimés en 3D** à monter, démonter et manipuler, un **jeu de
+cartes** pour réfléchir aux réponses de la plante face aux stress
+environnementaux, et un **guide pour les animateurs**. Le tout est **libre et
+gratuit**.
+
+[:material-printer-3d: Le matériel](materiel.md){ .md-button .md-button--primary }
 [:material-human-male-board: Animer l'atelier](animer/index.md){ .md-button }
-
----
-
-## Que trouverez-vous ici ?
-
-<div class="grid cards" markdown>
-
--   :material-printer-3d-nozzle:{ .lg .middle } **Le modèle 3D**
-
-    ---
-
-    Toutes les pièces à imprimer, les réglages conseillés et les étapes
-    d'assemblage.
-
-    [:octicons-arrow-right-24: Imprimer le modèle](imprimer.md)
-
--   :material-account-child:{ .lg .middle } **Pour les plus jeunes**
-
-    ---
-
-    Un déroulé simple pour découvrir comment les plantes fabriquent
-    leur nourriture grâce à la lumière.
-
-    [:octicons-arrow-right-24: Atelier jeunes publics](animer/jeunes-publics.md)
-
--   :material-microscope:{ .lg .middle } **Pour aller plus loin**
-
-    ---
-
-    Le fonctionnement détaillé de la chaîne : photosystèmes, transfert
-    d'électrons, gradient de protons, ATP synthase…
-
-    [:octicons-arrow-right-24: Atelier approfondi](animer/approfondi.md)
-
--   :material-cards:{ .lg .middle } **Les cartes**
-
-    ---
-
-    Un jeu de cartes pour réfléchir à ce qui se passe quand
-    l'environnement change.
-
-    [:octicons-arrow-right-24: Découvrir les cartes](cartes.md)
-
--   :material-book-open-variant:{ .lg .middle } **Le fascicule animateur**
-
-    ---
-
-    Un guide pour s'approprier l'outil et préparer sa séance.
-
-    [:octicons-arrow-right-24: Lire le fascicule](fascicule.md)
-
--   :material-pencil-ruler:{ .lg .middle } **Adapter et contribuer**
-
-    ---
-
-    Des modèles vierges pour créer vos propres cartes et adapter l'atelier
-    à votre public ou à vos recherches.
-
-    [:octicons-arrow-right-24: Adapter l'atelier](adapter.md)
 
 </div>
 
+![Super Chloro, la mascotte de l'atelier](images/persos/super-chloro-baguette.png){ .hero-image }
+
+</div>
+
+---
+
+## Un zoom de la feuille jusqu'à la chaîne photosynthétique
+
+L'atelier se déroule comme un voyage vers l'infiniment petit. À chaque étape,
+le public peut **voir, manipuler et actionner** les structures de la cellule
+pour comprendre leur fonctionnement – et si possible en s'amusant !
+
+<div class="grid cards" markdown>
+
+-   :material-leaf:{ .lg .middle } **1. La feuille et la cellule**
+
+    ---
+
+    De la plante en pot à la cellule végétale, avec une observation au
+    microscope si vous en avez un.
+
+    [:octicons-arrow-right-24: Découvrir la cellule](animer/cellule.md)
+
+-   :material-magnify-plus:{ .lg .middle } **2. Plongée dans le chloroplaste**
+
+    ---
+
+    Des thylakoïdes jusqu'à la chaîne photosynthétique : des billes pour les
+    électrons… et des bonbons pour le sucre !
+
+    [:octicons-arrow-right-24: Plonger dans le chloroplaste](animer/chloroplaste.md)
+
+-   :material-cards:{ .lg .middle } **3. Quand ça va mal : les cartes**
+
+    ---
+
+    Chaleur, sécheresse, trop ou pas assez de lumière : comment la plante
+    réagit-elle ?
+
+    [:octicons-arrow-right-24: Jouer avec les cartes](cartes.md)
+
+</div>
+
+## Pour tous les publics
+
+L'atelier est **modulaire** : il s'adapte à un stand de festival comme à une
+intervention en classe, **de vingt minutes à une demi-journée**. Trois logos
+vous aident à choisir le contenu adapté :
+
+<div class="niveaux" markdown>
+
+<figure markdown>
+![](images/niveaux/niveau-1.png)
+<figcaption>Pour les plus petits</figcaption>
+</figure>
+
+<figure markdown>
+![](images/niveaux/niveau-2.png)
+<figcaption>Pour les ados</figcaption>
+</figure>
+
+<figure markdown>
+![](images/niveaux/niveau-3.png)
+<figcaption>Pour les adultes</figcaption>
+</figure>
+
+</div>
+
+## Ils ont déjà fait le voyage
+
+<div class="galerie-apercu" markdown>
+![Atelier en classe autour du modèle](images/galerie/ecole-01.jpg)
+![Manipulation du modèle de la photosynthèse pour les plus petits](images/galerie/nuit-01.jpg)
+![Dessin d'un élève après l'atelier](images/galerie/dessin-adrien.jpg)
+</div>
+
+[:material-image-multiple: Voir la galerie](galerie.md){ .md-button }
+
 !!! info "Un projet en cours de construction"
-    L'atelier évolue encore : certaines pages et certains fichiers seront
-    complétés au fil des mois. N'hésitez pas à revenir !
+    Certains modèles 3D, notamment ceux des thylakoïdes et de la chaîne
+    photosynthétique, seront bientôt disponibles. Revenez nous voir !
 
-## Qui sommes-nous ?
+---
 
-<!-- Quelques lignes sur l'équipe, le laboratoire, l'origine du projet. -->
-*À compléter : présentation de l'équipe et du laboratoire.*
+<small>
+Développé par l'équipe Luminy Génétique et Biophysique des Plantes
+(BIAM/LGBP, Marseille) avec le soutien de la Cellule de Culture Scientifique
+d'Aix-Marseille Université. [Qui sommes-nous ?](credits.md)
+</small>

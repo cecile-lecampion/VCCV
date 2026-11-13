@@ -1,21 +1,134 @@
-/* Petites retouches d'apparence du site VCCV.
+/* Retouches d'apparence du site « Voyage au cœur de la cellule végétale ».
    Ce fichier est facultatif : vous pouvez le laisser tel quel. */
 
-/* Boutons un peu plus arrondis et aérés */
+/* Boutons arrondis et aérés */
 .md-typeset .md-button {
   border-radius: 2rem;
   margin: 0.3rem 0.3rem 0.3rem 0;
 }
 
-/* Images arrondies avec une légère ombre */
-.md-typeset img {
+/* Photos légèrement arrondies (pas les personnages détourés) */
+.md-typeset .galerie img,
+.md-typeset .galerie-apercu img,
+.md-typeset .cartes-exemples img,
+.md-typeset .cartes-dos img {
   border-radius: 0.6rem;
 }
 
-/* Cartes de la page d'accueil : effet au survol */
+/* Cartes de navigation : effet au survol */
 .md-typeset .grid.cards > ul > li {
   transition: transform 0.15s ease;
 }
 .md-typeset .grid.cards > ul > li:hover {
   transform: translateY(-3px);
+}
+
+/* Bandeau texte + illustration (accueil, guide, adapter) */
+.md-typeset .hero {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.md-typeset .hero-texte {
+  flex: 1 1 22rem;
+}
+.md-typeset .hero-image {
+  flex: 0 1 18rem;
+  max-width: 18rem;
+  width: 100%;
+  margin: 0 auto;
+}
+.md-typeset .hero-image.petite {
+  max-width: 12rem;
+}
+
+/* Rangées d'illustrations avec légende : niveaux, monstres, dos de cartes */
+.md-typeset .niveaux,
+.md-typeset .monstres,
+.md-typeset .cartes-dos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+.md-typeset .niveaux figure {
+  width: 8rem;
+}
+.md-typeset .niveaux img {
+  height: 5rem;
+  width: auto;
+  object-fit: contain;
+}
+.md-typeset .cartes-dos figure {
+  width: 9rem;
+}
+.md-typeset .cartes-dos img {
+  width: 100%;
+}
+.md-typeset .niveaux figure,
+.md-typeset .monstres figure,
+.md-typeset .cartes-dos figure {
+  margin: 0;
+  text-align: center;
+}
+.md-typeset .monstres figure {
+  width: 8rem;
+}
+.md-typeset .monstres img {
+  height: 7rem;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Grilles de photos */
+.md-typeset .galerie,
+.md-typeset .galerie-apercu,
+.md-typeset .cartes-exemples {
+  display: grid;
+  gap: 0.8rem;
+}
+.md-typeset .galerie {
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+}
+.md-typeset .galerie-apercu {
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+}
+.md-typeset .cartes-exemples {
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 32rem;
+  margin: 0 auto;
+}
+.md-typeset .galerie p,
+.md-typeset .galerie-apercu p,
+.md-typeset .cartes-exemples p {
+  display: contents;
+}
+.md-typeset .galerie img,
+.md-typeset .galerie-apercu img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+.md-typeset .cartes-exemples img {
+  width: 100%;
+}
+
+/* Équation de la photosynthèse */
+.md-typeset .equation {
+  font-size: 1.3em;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.8rem;
+  margin: 1rem 0;
+  border-radius: 0.6rem;
+  background: var(--md-accent-fg-color--transparent);
+}
+
+/* Sur téléphone : mascotte plus petite */
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .hero-image {
+    max-width: 11rem;
+  }
 }

@@ -6,11 +6,11 @@
 # Les lignes qui commencent par # sont des commentaires : elles sont ignorées.
 # =============================================================================
 
-site_name: Atelier VCCV – La photosynthèse en 3D
+site_name: Voyage au cœur de la cellule végétale
 site_description: >-
-  Un atelier de médiation scientifique autour d'un modèle 3D imprimable
-  de la chaîne photosynthétique, pour tous les publics.
-site_author: Cécile Lecampion et collaborateurs
+  Un set de vulgarisation scientifique, avec des modèles imprimés en 3D et
+  un jeu de cartes, pour voyager de la feuille jusqu'au cœur de la photosynthèse.
+site_author: Cécile Lecampion, Pascaline Auroy, Aurélie Crepin
 
 # Adresse finale du site (GitHub Pages)
 site_url: https://cecile-lecampion.github.io/VCCV/
@@ -26,10 +26,9 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   language: fr
-  # Logo et icône d'onglet : déposez vos images dans docs/images/
-  # puis enlevez le # au début des deux lignes ci-dessous.
-  # logo: images/logo.png
-  # favicon: images/favicon.png
+  # Logo (en haut à gauche) et icône d'onglet du navigateur
+  logo: images/logo.png
+  favicon: images/favicon.png
   icon:
     repo: fontawesome/brands/github
   palette:
@@ -70,15 +69,16 @@ extra_css:
 # -----------------------------------------------------------------------------
 nav:
   - Accueil: index.md
-  - Imprimer le modèle: imprimer.md
+  - Le matériel: materiel.md
   - Animer l'atelier:
       - animer/index.md
-      - Pour les plus jeunes: animer/jeunes-publics.md
-      - Pour aller plus loin: animer/approfondi.md
+      - 1. La cellule végétale: animer/cellule.md
+      - 2. Plongée dans le chloroplaste: animer/chloroplaste.md
   - Les cartes: cartes.md
-  - Fascicule animateur: fascicule.md
+  - Le guide de l'animateur: fascicule.md
+  - Galerie: galerie.md
   - Adapter et contribuer: adapter.md
-  - Crédits et licence: credits.md
+  - Qui sommes-nous ?: credits.md
 
 # -----------------------------------------------------------------------------
 # Extensions : encadrés colorés, onglets, icônes, images, etc.
@@ -113,5 +113,5 @@ extra:
       name: Le dépôt GitHub
 
 copyright: >-
-  Atelier VCCV – contenus sous licence libre,
-  voir la page <a href="credits/">Crédits et licence</a>.
+  Voyage au cœur de la cellule végétale – BIAM/LGBP, Aix-Marseille Université.
+  Contenus sous licence libre.
