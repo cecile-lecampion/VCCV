@@ -17,7 +17,7 @@ site_url: https://cecile-lecampion.github.io/VCCV/
 
 # Lien vers le dépôt GitHub (affiché discrètement en haut à droite)
 repo_url: https://github.com/cecile-lecampion/VCCV
-repo_name: VCCV sur GitHub
+repo_name: VCCV · GitHub
 edit_uri: edit/main/docs/
 
 # -----------------------------------------------------------------------------
@@ -102,7 +102,70 @@ markdown_extensions:
 
 plugins:
   - search:
-      lang: fr
+      lang:
+        - fr
+        - en
+  # ---------------------------------------------------------------------------
+  # Site bilingue français / anglais
+  # Chaque page française « page.md » peut avoir sa traduction « page.en.md »
+  # dans le même dossier. Si la traduction n'existe pas encore, le site anglais
+  # affiche la version française à la place.
+  # Le sélecteur de langue (icône 🌐 en haut de page) est ajouté automatiquement.
+  # ---------------------------------------------------------------------------
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: fr
+          default: true
+          name: Français
+          build: true
+        - locale: en
+          name: English
+          build: true
+          site_name: Journey to the Heart of the Plant Cell
+          site_description: >-
+            A science outreach kit, with 3D-printed models and a card game,
+            for travelling from the leaf to the heart of photosynthesis.
+          copyright: >-
+            Journey to the Heart of the Plant Cell – BIAM/LGBP,
+            Aix-Marseille University. Open content.
+          theme:
+            palette:
+              - media: "(prefers-color-scheme: light)"
+                scheme: default
+                primary: green
+                accent: light green
+                toggle:
+                  icon: material/weather-night
+                  name: Switch to dark mode
+              - media: "(prefers-color-scheme: dark)"
+                scheme: slate
+                primary: green
+                accent: light green
+                toggle:
+                  icon: material/weather-sunny
+                  name: Switch to light mode
+          extra:
+            generator: false
+            social:
+              - icon: fontawesome/brands/github
+                link: https://github.com/cecile-lecampion/VCCV
+                name: The GitHub repository
+          # Noms des menus en anglais (à gauche : le nom français du menu)
+          nav_translations:
+            Accueil: Home
+            Le matériel: The kit
+            Animer l'atelier: Running the workshop
+            1. La cellule végétale: 1. The plant cell
+            2. Plongée dans le chloroplaste: 2. Diving into the chloroplast
+            Les cartes: The cards
+            Le guide de l'animateur: The facilitator's guide
+            Galerie: Gallery
+            Adapter et contribuer: Adapt and contribute
+            Qui sommes-nous ?: About us
 
 extra:
   # Supprime la mention « Made with Material for MkDocs » en bas de page

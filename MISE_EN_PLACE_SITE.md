@@ -174,6 +174,27 @@ envoie un e-mail « Run failed ». Pour vérifier avant d'envoyer, lancez
 `mkdocs serve` (voir section 4) : les erreurs s'affichent dans le Terminal
 en jaune, sur les lignes qui commencent par `WARNING`.
 
+## 5 bis. La version anglaise du site
+
+Chaque page existe en deux fichiers, côte à côte dans le même dossier :
+`cartes.md` (français) et `cartes.en.md` (anglais). Le sélecteur de langue
+(icône 🌐 en haut de page) passe de l'un à l'autre.
+
+- **Quand vous modifiez une page française**, pensez à reporter la
+  modification dans le fichier `.en.md` correspondant (ou demandez une
+  traduction à Claude).
+- **Pour ajouter une nouvelle page** : créez `ma-page.md`, ajoutez-la au menu
+  (`nav:` dans `mkdocs.yml`) comme d'habitude, puis ajoutez le nom anglais du
+  menu dans la partie `nav_translations:` de `mkdocs.yml`. Tant que
+  `ma-page.en.md` n'existe pas, le site anglais affiche la version française :
+  rien ne casse.
+- **Les liens entre pages** s'écrivent sans `.en` : dans `cartes.en.md`, un
+  lien vers `materiel.md` mène automatiquement à la version anglaise.
+- **Les images** de `docs/images/` sont communes aux deux langues.
+- Les **ancres** (la partie après `#` dans un lien) dépendent du titre de la
+  section : la section « Nous contacter » s'appelle `#nous-contacter` en
+  français et « Get in touch » `#get-in-touch` en anglais.
+
 ## 6. Proposer les fichiers en téléchargement (Releases)
 
 Plutôt que d'envoyer les visiteurs fouiller dans les dossiers GitHub :
